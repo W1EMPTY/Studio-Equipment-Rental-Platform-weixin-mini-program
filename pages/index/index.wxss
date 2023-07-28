@@ -1,0 +1,38 @@
+.home_page_swiper {
+  border: 1px black solid;
+  height: 100px;
+  width: auto;
+}
+.mov-a {
+  border: 1px black double;
+  height: 100px;
+  margin: 20px auto 20px auto;
+  width: 80%;
+  height: 90px;
+}
+
+.mov-v {
+  border: black 2px solid;
+  background-color: firebrick;
+  width: 20%;
+  height: 20%;
+}
+.scroll-view {
+  display: none;
+  height: 200px;
+  border: red 2px solid;
+}
+.grid {
+}
+.grid-item {
+  text-align: center;
+  border: black 1px solid;
+}
+.page-container {
+  border: rgb(189, 23, 23) 1px solid;
+}
+.btn{
+  display: flex;
+  margin: 10px  auto;
+  
+  }

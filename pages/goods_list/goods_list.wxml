@@ -1,0 +1,43 @@
+<!--pages/goods_list/goods_list.wxml-->
+<!-- <text>pages/goods_list/goods_list.wxml</text> -->
+<view class="Sort_Bar">
+  <view class="Sort_Button" id="price_sort">
+    价格排序
+  </view>
+  <view class="Sort_Button" id="deal_sort">
+    成交量排序
+  </view>
+  <view class="Sort_Button" id="price_sort">
+    3
+  </view>
+  <view class="Sort_Button" id="price_sort">
+    4
+  </view>
+  <view class="Sort_Button" id="price_sort">
+    4
+  </view>
+  <view class="Sort_Button" id="price_sort">
+    4
+  </view>
+
+</view>
+<scroll-view class="Goods_List">
+<view class="good_block">
+good_1
+</view>
+<view class="good_block">
+good_1
+</view>
+<view class="good_block">
+good_1
+</view>
+<view class="good_block">
+good_1
+</view>
+<view class="good_block">
+good_1
+</view>
+<view class="good_block">
+good_1
+</view>
+</scroll-view >

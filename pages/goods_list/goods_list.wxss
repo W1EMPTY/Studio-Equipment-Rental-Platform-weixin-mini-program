@@ -1,0 +1,33 @@
+/* pages/goods_list/goods_list.wxss */
+/* view{
+} */
+.Sort_Bar {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  border: 1px black solid;
+  justify-content:space-around;
+}
+
+.Sort_Button{
+  display: block;
+  width: max-content;
+  height: 100%;
+}
+.Goods_List{
+  flex-direction: column;
+  width: auto;
+  height: 550px;
+  /* border: 1px black solid; */
+}
+
+.good_block{
+  display: flex;
+  height: 90px;
+  width: 100%;
+  border-bottom: 1px green double;
+  justify-content: center;
+  align-items: center;
+}
+
+

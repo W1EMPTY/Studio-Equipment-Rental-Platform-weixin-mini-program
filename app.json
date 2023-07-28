@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/goods_list/goods_list",
+    "pages/User_Page/User_page",
+    "pages/shopping_cart/shopping_cart",
+    "pages/good/good",
+    "pages/logic_cloud/logic_cloud",
+    "pages/form/form"
+  ],
+   "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "租借",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pic_source/homepage_button.png",
+        "selectedIconPath": "pic_source/selected_homepage_button.png"
+      },
+      {
+        "pagePath": "pages/goods_list/goods_list",
+        "text": "商品列表",
+        "iconPath": "pic_source/goods_list_icon.png",
+        "selectedIconPath": "pic_source/selected_goods_list_icon.png"
+      },
+      {
+        "pagePath": "pages/shopping_cart/shopping_cart",
+        "text": "逻辑图(测试中)",
+        "iconPath": "pic_source/Shopping_ cart_icon.png",
+        "selectedIconPath": "pic_source/selected_Shopping_ cart_icon.png"
+      },
+      {
+        "pagePath": "pages/User_Page/User_page",
+        "text": "我的",
+        "iconPath": "pic_source/user_icon.png",
+        "selectedIconPath": "pic_source/selected_user_icon .png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

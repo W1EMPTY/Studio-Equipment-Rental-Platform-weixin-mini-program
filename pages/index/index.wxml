@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<!--index.wxml-->
+<swiper class="home_page_swiper" indicator-dots="ture" autoplay="ture">
+  <swiper-item>
+    swiper-item_1
+  </swiper-item>
+  <swiper-item>
+    swiper-item_2
+  </swiper-item>
+  <swiper-item>
+    swiper-item_3
+  </swiper-item>
+</swiper>
+<!-- <movable-area class="mov-a">
+<movable-view class="mov-v"
+direction="all">
+view
+</movable-view>
+</movable-area> -->
+<scroll-view class="scroll-view" scroll-y="ture" type="custom">
+  <grid-view class="grid" type="masonry" cross-axis-count="2">
+    <view class="grid-item">1</view>
+    <view class="grid-item">2</view>
+    <view class="grid-item">3</view>
+    <view class="grid-item">4</view>
+    <view class="grid-item">5</view>
+    <view class="grid-item">6</view>
+    <view class="grid-item">7</view>
+    <view class="grid-item">8</view>
+    <view class="grid-item">9</view>
+  </grid-view>
+</scroll-view>
+<button size="mini" class="btn" type="primary" open-type="chooseAvatar">
+  点击获取头像
+</button>
+
+<!-- <page-container class="page-container"
+show="ture"
+>
+</page-container> -->
+
