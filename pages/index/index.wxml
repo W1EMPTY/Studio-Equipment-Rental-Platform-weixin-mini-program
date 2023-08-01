@@ -1,8 +1,10 @@
 <!--index.wxml-->
 <!--index.wxml-->
-<swiper class="home_page_swiper" indicator-dots="ture" autoplay="ture">
+<swiper class="home_page_swiper" indicator-dots="ture" autoplay="false">
   <swiper-item>
     swiper-item_1
+ <cover-image src="	http://w1empty.studio/非遗文化/pic_soures/logo.PNG"></cover-image>
+
   </swiper-item>
   <swiper-item>
     swiper-item_2

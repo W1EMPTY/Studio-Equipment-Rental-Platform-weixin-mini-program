@@ -1,5 +1,5 @@
 <!--pages/form/form.wxml-->
-<text>pages/form/form.wxml</text>
+<!-- <text>pages/form/form.wxml</text> -->
 <view class="container">
 <view class="page_title">
 form 组件
@@ -12,8 +12,14 @@ form 组件
 </view>
 <view class="chaeckbox"></view>
 checkbox
-<checkbox-group bindchange="checkbox_bc" name="chaeckbox">
-<label for=""><checkbox value="chaeckbox1"/>  chaeckbox1</label>
-
+<checkbox-group bindchange="checkbox_bc" name="chaeckbox" class="checkbox-group">
+<label class="weui" wx:for="{{items}}" wx:key='{{item.value}}'><checkbox value='{{item.value}}'/>
+<view>{{item.name}}</view>
+</label>
 </checkbox-group>
 </view>
+
+<view style="text-align: center;">登录</view>
+<input class="input_box"  type="text" value="请输入用户名/手机号" name="" id="" maxlength="10"/>
+<input class="input_box"  type="text" value="请输入密码" name="" id=""maxlength="20"  />
+<input class="input_box"  type="idcard" value="请输入身份证" name="" id=""/>

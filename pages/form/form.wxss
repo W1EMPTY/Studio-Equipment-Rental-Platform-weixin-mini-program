@@ -1,1 +1,16 @@
-/* pages/form/form.wxss */
+.weui{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid 1px black; */
+  /* border: solid 1px black; */
+  /* border: solid 1px black; */
+}
+.input_box{
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgba(99, 99, 99, 0.212);
+  height: 20px;
+  padding: 5px;
+}

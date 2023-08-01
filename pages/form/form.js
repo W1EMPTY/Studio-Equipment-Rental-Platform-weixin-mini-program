@@ -5,9 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    items:[
+      {value:'A',name:'abcdefg'},
+      {value:'B',name:'abcdefgb'},
+      {value:'C',name:'abcdefgc'},
+      {value:'D',name:'abcdefgd'},
+      {value:'E',name:'eabcdefg'}
+    ]
   },
-
+  checkbox_bc(e){
+    console.log(e.detail.value);
+  },
   /**
    * 生命周期函数--监听页面加载
    */
